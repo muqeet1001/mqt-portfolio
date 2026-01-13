@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "title": "Saumya Chaturvedi | Portfolio",
+    "description": "Welcome to my portfolio – basically a museum of things I've built, broken, and then fixed (most of the time). From engineering to design, it's my creative playground where ideas turn into projects that actually work… eventually.",
+    "generator": "Framer 89f6630",
+    "canonical": "https://saumyachaturvedi.com/",
+    "language": "en"
+  },
+  "icons": {
+    "favicon": "https://framerusercontent.com/images/PRvLD4xhGXVNincSyFqjUFOcb8M.png",
+    "appleTouchIcon": "https://framerusercontent.com/images/sywK9P4B1PyAVE4yysRtQhwkSWQ.png"
+  },
+  "openGraph": {
+    "type": "website",
+    "title": "Saumya Chaturvedi | Portfolio",
+    "description": "Welcome to my portfolio – basically a museum of things I've built, broken, and then fixed (most of the time). From engineering to design, it's my creative playground where ideas turn into projects that actually work… eventually.",
+    "image": "https://framerusercontent.com/assets/yC7YcoG1iSqrnoKsZdioztOcu0.png",
+    "url": "https://saumyachaturvedi.com/"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Saumya Chaturvedi | Portfolio",
+    "description": "Welcome to my portfolio – basically a museum of things I've built, broken, and then fixed (most of the time). From engineering to design, it's my creative playground where ideas turn into projects that actually work… eventually.",
+    "image": "https://framerusercontent.com/assets/yC7YcoG1iSqrnoKsZdioztOcu0.png"
+  },
+  "fonts": {
+    "fragmentMono": {
+      "family": "Fragment Mono",
+      "weights": [400],
+      "sources": {
+        "cyrillicExt": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+        "latinExt": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+        "latin": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2"
+      }
+    },
+    "inter": {
+      "family": "Inter",
+      "weights": [400, 500, 600, 700, 900],
+      "baseUrl": "https://framerusercontent.com/assets/"
+    }
+  },
+  "colorTokens": {
+    "light": {
+      "background": "#f8fafc",
+      "backgroundAlt": "#fff",
+      "textPrimary": "#0c131b",
+      "textSecondary": "rgba(12, 19, 27, 0.6)",
+      "textTertiary": "rgba(12, 19, 27, 0.3)",
+      "border": "rgba(12, 19, 27, 0.1)",
+      "borderLight": "rgba(12, 19, 27, 0.05)",
+      "borderLightest": "rgba(12, 19, 27, 0.03)",
+      "accent": "#ff8c07",
+      "accentAlt": "#ff9466",
+      "surface": "#fff",
+      "surfaceAlt": "#fbfdff",
+      "overlay": "rgba(255, 255, 255, 0.1)",
+      "neutral": "#cacbcd"
+    },
+    "dark": {
+      "background": "#000",
+      "backgroundAlt": "#0f0f0f",
+      "textPrimary": "#f0f0f0",
+      "textSecondary": "rgba(240, 240, 240, 0.6)",
+      "textTertiary": "rgba(240, 240, 240, 0.3)",
+      "border": "rgba(240, 240, 240, 0.1)",
+      "borderLight": "rgba(240, 240, 240, 0.05)",
+      "surface": "#1a1a1a",
+      "surfaceAlt": "#181818",
+      "overlay": "rgba(33, 33, 33, 0.2)",
+      "neutral": "#4f4f4f"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": 600,
+      "lineHeight": "1.2em",
+      "letterSpacing": "0em",
+      "textAlign": "center"
+    },
+    "h2": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": 600,
+      "lineHeight": "1.2em",
+      "letterSpacing": "0em",
+      "textAlign": "center"
+    },
+    "h3": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 600,
+      "lineHeight": "1.2em",
+      "letterSpacing": "0em",
+      "textAlign": "center"
+    },
+    "body": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": "1.6em",
+      "letterSpacing": "0em",
+      "textAlign": "left"
+    },
+    "bodyMedium": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 500,
+      "lineHeight": "1.2em",
+      "letterSpacing": "0em",
+      "textAlign": "left"
+    },
+    "label": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 600,
+      "lineHeight": "1.6em",
+      "letterSpacing": "0em",
+      "textAlign": "left"
+    }
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "contentMaxWidth": "608px",
+    "breakpoints": {
+      "desktop": "(min-width: 1200px)",
+      "tablet": "(min-width: 810px) and (max-width: 1199.98px)",
+      "mobile": "(max-width: 809.98px)"
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "xxl": "48px",
+      "section": "120px"
+    }
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "background": "radial-gradient(55.8% 104.9% at 51.3% -6.9%, rgb(97, 97, 97) 0%, rgb(18, 18, 18) 60%)",
+        "borderRadius": "10px",
+        "boxShadow": "rgba(158, 158, 158, 0.3) 0px 0px 0px 1px, rgba(0, 0, 0, 0.03) 0px 0.120725px 0.0845077px 0px, rgba(0, 0, 0, 0.25) 0px 1px 0.7px 0px",
+        "padding": "12px 32px",
+        "textColor": "#fff"
+      },
+      "secondary": {
+        "background": "transparent",
+        "borderRadius": "8px",
+        "padding": "8px 24px"
+      }
+    },
+    "card": {
+      "background": "#fff",
+      "borderRadius": "24px",
+      "border": "1px solid rgba(255, 255, 255, 0.5)",
+      "boxShadow": "inset 0px -0.5px 1px 0px rgba(11, 19, 27, 0.3), 0px 0.6369534988189116px 0.6369534988189116px -0.9375px rgba(0, 0, 0, 0.18), 0px 1.9316049144836143px 1.9316049144836143px -1.875px rgba(0, 0, 0, 0.17), 0px 5.106122817187569px 5.106122817187569px -2.8125px rgba(0, 0, 0, 0.15), 0px 16px 16px -3.75px rgba(0, 0, 0, 0.06)",
+      "padding": "24px"
+    },
+    "avatar": {
+      "size": "64px",
+      "borderRadius": "50%",
+      "backgroundColor": "rgb(44, 47, 52)"
+    },
+    "chip": {
+      "background": "rgba(12, 19, 27, 0.05)",
+      "borderRadius": "200px",
+      "padding": "4px 8px"
+    },
+    "link": {
+      "color": "#0099ff",
+      "textDecoration": "underline"
+    }
+  },
+  "sections": {
+    "hero": {
+      "maxWidth": "608px",
+      "padding": {
+        "desktop": "72px 16px 16px",
+        "mobile": "20px 16px 6px"
+      },
+      "gap": "18px"
+    },
+    "work": {
+      "maxWidth": "608px",
+      "padding": "0 16px",
+      "gap": "15px"
+    },
+    "sideProjects": {
+      "maxWidth": "608px",
+      "padding": "32px 16px 0",
+      "gap": "24px"
+    },
+    "testimonials": {
+      "maxWidth": "608px",
+      "padding": "48px 16px 0",
+      "gap": "24px"
+    },
+    "articles": {
+      "maxWidth": "608px",
+      "padding": "32px 16px 0",
+      "gap": "24px"
+    }
+  },
+  "content": {
+    "hero": {
+      "name": "Saumya",
+      "greeting": "Hey, Saumya here",
+      "bio": "I'm your friendly neighborhood CAD wizard from the mystical land of Haridwar (yep, the place considered as a gateway to lord). With 5+ years of doodling… uh, I mean designing, I turn \"wait, how?\" ideas into \"wow, that's slick!\" reality. Whether I'm jamming with a team of quirky geniuses or flying solo like a design ninja, I bring a mix of creativity, precision, and just enough magic to make projects shine.",
+      "avatar": "https://framerusercontent.com/images/NYMFfSlm2IJaYbJ110l3tomQJCU.png"
+    },
+    "work": [
+      {
+        "company": "Birla Corporation",
+        "period": "2025- Present",
+        "logo": "https://framerusercontent.com/images/wSxGuBqsVIickPPVOGH7Q26YEg.png",
+        "link": "https://mpbirlajute.com/",
+        "background": "https://framerusercontent.com/images/Vn5GZLYbQhptHLLuAQr8FpXokps.png",
+        "workImage": "https://framerusercontent.com/images/SvZyFZuLaW1z6nxdbz3y1zq7gD4.png"
+      }
+    ],
+    "sideProjects": [
+      {
+        "title": "Discord Community for Gamers",
+        "logo": "https://framerusercontent.com/images/DZMFnXccvBB6ewvoB6Ebqcpx28.png",
+        "link": "https://discord.gg/5fDgzYraCJ"
+      },
+      {
+        "title": "Honda Civic 2008 Modification",
+        "logo": "https://framerusercontent.com/images/Q95CzPkzGJnQXtBBBJ9WJDwNwg.svg",
+        "link": "./blogs/honda-civic-modification"
+      },
+      {
+        "title": "Self-Paced Courses Website",
+        "logo": "https://framerusercontent.com/images/Eovllqyr1L8WdvO1JuekCVwc.svg",
+        "link": "https://learn.skyyskill.com/"
+      },
+      {
+        "title": "Podcast",
+        "logo": "https://framerusercontent.com/images/pPMnDnnrzT604ng6XMVQQM4pPI0.png",
+        "link": "https://open.spotify.com/show/2WlENMZeZSwtrrJ1yBOz29"
+      }
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/schats",
+      "contact": "./contact"
+    }
+  },
+  "animations": {
+    "smoothScroll": {
+      "enabled": true,
+      "className": "lenis"
+    },
+    "fadeIn": {
+      "transform": "translateY(56px)",
+      "opacity": 0
+    },
+    "blur": {
+      "layers": 8,
+      "maxBlur": "14px"
+    }
+  },
+  "effects": {
+    "glassmorphism": {
+      "backdropFilter": "blur(10px)",
+      "backgroundColor": "rgba(34, 34, 34, 0.8)"
+    },
+    "cardShadow": "rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(255, 255, 255, 0.15) 0px 0px 0px 1px"
+  }
+}
