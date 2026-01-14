@@ -9,8 +9,7 @@
   --text-secondary: rgba(12, 19, 27, 0.8);
   --text-tertiary: rgba(12, 19, 27, 0.3);
   --border: rgba(12, 19, 27, 0.1);
-  --border-light: rgba(12, 19, 27, 0.05);
-  --accent: #ff8c07;
+  --accent: #000000;
 }
 
 .dark {
@@ -21,7 +20,7 @@
   --text-tertiary: rgba(240, 240, 240, 0.3);
   --border: rgba(240, 240, 240, 0.1);
   --border-light: rgba(240, 240, 240, 0.05);
-  --accent: #ff9466;
+  --accent: #ffffff;
 }
 
 * {

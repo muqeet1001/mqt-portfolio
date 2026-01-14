@@ -18,10 +18,10 @@ export default function HeroSection() {
                 className="w-32 h-32 md:w-36 md:h-36 rounded-full bg-gray-800 overflow-hidden mb-6 cursor-pointer relative group"
             >
                 {/* Glow effect on hover */}
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 opacity-0 group-hover:opacity-70 blur-xl transition-opacity duration-500 -z-10 scale-150" />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-white/20 via-white/10 to-transparent opacity-0 group-hover:opacity-70 blur-xl transition-opacity duration-500 -z-10 scale-150" />
 
                 {/* Ring animation */}
-                <div className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-accent/50 transition-all duration-300 scale-100 group-hover:scale-110" />
+                <div className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-white/30 transition-all duration-300 scale-100 group-hover:scale-110" />
 
                 <img
                     src={heroData.avatar}

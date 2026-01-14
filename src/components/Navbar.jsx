@@ -7,10 +7,7 @@ const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Projects', path: '/projects' },
-    { name: 'Shop', path: '/products-listing' },
     { name: 'Blogs', path: '/blogs' },
-    { name: 'Songs', path: '/songs' },
-    { name: 'Playground', path: '/playground' },
     { name: 'Contact', path: '/contact' },
 ]
 
@@ -19,7 +16,6 @@ const navLinks = [
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
     const location = useLocation()
-
     return (
         <>
             {/* Theme Toggle Button - Aligned with Menu */}
