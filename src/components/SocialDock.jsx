@@ -53,23 +53,28 @@ export default function SocialDock() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3 }}
-            className="fixed z-40 flex gap-2 p-2 bg-surface/80 glass rounded-2xl shadow-card border border-border-light
+            className="fixed z-40 flex gap-2 lg:gap-3 p-2 lg:p-3 
+                bg-gradient-to-br from-white/20 to-white/5 dark:from-white/10 dark:to-transparent 
+                backdrop-blur-2xl rounded-2xl shadow-2xl 
+                border border-white/20 dark:border-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.2)]
                 /* Mobile: Top Left, Horizontal Row */
-                top-1 left-7 flex-row
+                top-1 left-3 right-auto mx-0 w-max flex-row
                 /* Desktop: Center Left, Vertical Column */
-                lg:top-1/2 lg:-translate-y-1/2 lg:left-6 lg:flex-col"
+                lg:top-1/4 lg:-translate-y-1/2 lg:left-6 lg:flex-col"
         >
             {socialLinks.map((link) => (
-                <a
+                <motion.a
                     key={link.name}
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-xl flex items-center justify-center text-text-secondary hover:text-text-primary hover:bg-border-light transition-all"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="w-9 h-9 lg:w-12 lg:h-12 rounded-xl flex items-center justify-center text-text-secondary hover:text-text-primary hover:bg-white/20 dark:hover:bg-white/10 transition-colors"
                     aria-label={link.name}
                 >
                     {link.icon}
-                </a>
+                </motion.a>
             ))}
         </motion.div>
     )

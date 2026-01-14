@@ -34,7 +34,8 @@ export default function ThemeToggle() {
     return (
         <button
             onClick={toggleTheme}
-            className="relative w-16 h-9 bg-surface/80 glass border border-border rounded-full flex items-center px-1 shadow-inner hover:border-accent/50 transition-all duration-300 hover:scale-105 group"
+            className="relative w-16 h-9 bg-surface/80 glass border border-border rounded-full flex items-center px-1 shadow-inner hover:border-accent/50 transition-all duration-300 hover:scale-105 group focus:outline-none focus:ring-0"
+            style={{ WebkitTapHighlightColor: 'transparent' }}
             aria-label="Toggle theme"
         >
             {/* Background Glow */}
@@ -44,7 +45,7 @@ export default function ThemeToggle() {
                 className="w-7 h-7 rounded-full bg-text-primary shadow-sm flex items-center justify-center overflow-hidden relative z-10"
                 animate={{
                     x: isDark ? 28 : 0,
-                    backgroundColor: isDark ? '#f0f0f0' : '#0c131b',
+                    backgroundColor: isDark ? '#f0f0f0' : '#010810ff',
                     rotate: isDark ? 360 : 0
                 }}
                 transition={{ type: "spring", stiffness: 400, damping: 25 }}
@@ -57,13 +58,13 @@ export default function ThemeToggle() {
                 >
                     {isDark ? (
                         // Moon icon
-                        <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-black" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M21.64 13a1 1 0 0 0-1.05-.14 8.05 8.05 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 13.64 10.64Z" />
                         </svg>
                     ) : (
-                        // Sun icon
-                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5Zm0 8a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-15a1 1 0 0 0 1 1h1a1 1 0 0 0 0-2h-1a1 1 0 0 0-1 1Zm-5.66 2.34a1 1 0 0 0 .71.29h.01a1 1 0 0 0 .7-.29 1 1 0 0 0 0-1.41l-.71-.71a1 1 0 0 0-1.41 1.41l.7.71Zm-2.34 5.66a1 1 0 0 0 1 1h1a1 1 0 0 0 0-2h-1a1 1 0 0 0-1 1Zm2.34 5.66a1 1 0 0 0 0 1.41l.71.71a1 1 0 0 0 1.41-1.41l-.71-.71a1 1 0 0 0-1.41 0Zm5.66 2.34a1 1 0 0 0 1 1h1a1 1 0 0 0 0-2h-1a1 1 0 0 0-1 1Zm5.66-2.34a1 1 0 0 0 0-1.41l-.71-.71a1 1 0 0 0-1.41 1.41l.71.71a1 1 0 0 0 1.41 0Zm2.34-5.66a1 1 0 0 0 1 1h1a1 1 0 0 0 0-2h-1a1 1 0 0 0-1 1Zm-2.34-5.66a1 1 0 0 0 0-1.41l-.71-.71a1 1 0 0 0-1.41 1.41l.71.71a1 1 0 0 0 1.41 0Z" />
+                        // Sun icon (Bolder/Simpler)
+                        <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg>
                     )}
                 </motion.div>
